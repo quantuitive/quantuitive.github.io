@@ -1,0 +1,33 @@
+@import "reset.css";
+
+body {
+    background-color: #080808;
+    background-image: url("/images/sf_skyline.jpg");
+    background-size: cover;
+}
+
+#content {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, 0%);
+    width: 48%;
+    padding-bottom: 50px;
+}
+
+#logo {
+    width: 100%;
+    margin: 12% auto 12% auto;
+}
+
+#chart {
+    width: 80%;
+    margin: 3% 10% 10% 10%;
+}
+
+p {
+    font-family: 'Abel', sans-serif;
+    font-size: 2.5vw;
+    color: #EEEEEE;
+    text-align: center;
+}
