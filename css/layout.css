@@ -1,29 +1,32 @@
 @import "reset.css";
 
-body {
-    background-color: #080808;
-    background-image: url("/images/sf_skyline.jpg");
+
+html {
+    background: url(/images/sf_skyline.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+img {
+    display: block;
 }
 
 #content {
-    position: absolute;
-    left: 50%;
-    top: 0;
-    transform: translate(-50%, 0%);
-    width: 48%;
-    padding-bottom: 50px;
+    width: 600px;
+    margin: 0 auto 75px auto;
 }
 
 #logo {
     width: 100%;
-    margin: 12% auto 12% auto;
+    margin: 75px auto;
 }
 
 #chart {
-    width: 80%;
-    margin: 3% 10% 10% 10%;
+    width: 480px;
+    margin: 15px auto 60px auto;
 }
 
 p {
